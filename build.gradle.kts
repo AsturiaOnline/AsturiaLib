@@ -1,22 +1,20 @@
 plugins {
     kotlin("jvm") version "2.3.10"
+//    id("fabric-loom") version "1.15-SNAPSHOT"
 }
 
 group = "kr.asturia"
 version = "0.1-a1"
 
-repositories {
-    mavenCentral()
-}
+subprojects {
+    apply(plugin = "org.jetbrains.kotlin.jvm")
+//    apply(plugin = "fabric-loom")
 
-dependencies {
-    testImplementation(kotlin("test"))
-}
+    repositories {
+        mavenCentral()
+    }
 
-kotlin {
-    jvmToolchain(21)
-}
-
-tasks.test {
-    useJUnitPlatform()
+    kotlin {
+        jvmToolchain(21)
+    }
 }

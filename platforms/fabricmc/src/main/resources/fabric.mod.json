@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricmc",
+  "version": "${version}",
+
+  "name": "fabricmc",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "unlicense",
+  "icon": "assets/fabricmc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": ["kr.asturia.asturialib.client.FabricmcDataGenerator"],
+    "client": ["kr.asturia.asturialib.client.FabricmcClient"],
+    "main": ["kr.asturia.asturialib.AsturiaLib"]
+  },
+
+  "mixins": [
+    "fabricmc.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

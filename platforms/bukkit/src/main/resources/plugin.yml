@@ -1,0 +1,6 @@
+name: bukkit
+version: '0.1-a1'
+main: kr.asturia.asturialib.AsturiaLib
+api-version: '1.21'
+authors: [AS7AR]
+website: https://grassproject.github.io
