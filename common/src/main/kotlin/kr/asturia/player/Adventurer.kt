@@ -1,5 +1,7 @@
 package kr.asturia.player
 
+import java.util.UUID
+
 /**
 * 모험가(플레이어)
  * @property uid 플레이어 UUID
@@ -11,7 +13,7 @@ interface Adventurer {
     val nickname: String
     val display: String
 
-    fun toString(): String {
-
+    override fun toString(): String {
+        return "Adventurer(uid=$uid, nickname='$nickname', display='$display')"
     }
 }
