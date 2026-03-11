@@ -1,7 +1,7 @@
 package kr.asturia.asturialib.player
 
 import kr.asturia.asturialib.data.AdventurerData
-import kr.asturia.player.Adventurer
+import kr.asturia.api.player.Adventurer
 import org.bukkit.OfflinePlayer
 import java.util.UUID
 

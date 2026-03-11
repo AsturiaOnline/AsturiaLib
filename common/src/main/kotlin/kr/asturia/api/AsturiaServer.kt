@@ -1,4 +1,4 @@
-package kr.asturia
+package kr.asturia.api
 
 class AsturiaServer {
 }

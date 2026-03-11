@@ -1,4 +1,4 @@
-package kr.asturia.player
+package kr.asturia.api.player
 
 import java.util.UUID
 

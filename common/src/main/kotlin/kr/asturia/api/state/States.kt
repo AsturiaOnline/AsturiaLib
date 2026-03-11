@@ -1,4 +1,4 @@
-package kr.asturia.state
+package kr.asturia.api.state
 
 interface States<T: Any> {
     val name: String
