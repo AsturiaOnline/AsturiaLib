@@ -13,7 +13,6 @@ interface Adventurer {
     val nickname: String
     val display: String
 
-    override fun toString(): String {
-        return "Adventurer(uid=$uid, nickname='$nickname', display='$display')"
-    }
+    fun getState()
+    fun setState()
 }

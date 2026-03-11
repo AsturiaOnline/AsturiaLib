@@ -1,6 +1,6 @@
-name: bukkit
+name: AsturiaLib
 version: '0.1-a1'
 main: kr.asturia.asturialib.AsturiaLib
 api-version: '1.21'
-authors: [AS7AR]
+authors: [STARDIO]
 website: https://grassproject.github.io
